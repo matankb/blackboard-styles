@@ -1,0 +1,34 @@
+bb-base-course-card .small-8,
+bb-base-course-card .course-type {
+  display: none !important;
+}
+
+.course-element-card {
+  padding: 3px 10px !important;
+}
+
+.base-courses .element-card {
+  min-height: 0 !important;
+  margin-bottom: 0px !important;
+  border-bottom: none !important;
+}
+
+bb-base-course-card .element-details {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+}
+
+bb-base-course-card .element-details .small-12 {
+  width: 110px !important;
+}
+
+bb-base-course-card .element-details .course-id {
+  margin-right: 5px;
+  margin-top: 1px;
+  margin-left: 5px;
+}
+
+.base-courses .element-card .course-title {
+  width: 100% !important;
+}
